@@ -13,7 +13,7 @@
 	<name>spring-security</name>
 	<description>Spring Security Project</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -57,6 +57,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>docker-jenkins-integration</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
